@@ -11,6 +11,8 @@
 		BFA450652A7B7497001D0B94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA450642A7B7497001D0B94 /* ContentView.swift */; };
 		BFA450672A7B749B001D0B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA450662A7B749B001D0B94 /* Assets.xcassets */; };
 		BFA4506A2A7B749B001D0B94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA450692A7B749B001D0B94 /* Preview Assets.xcassets */; };
+		BFA450732A7B76F5001D0B94 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA450722A7B76F5001D0B94 /* SplashScreenView.swift */; };
+		BFA450752A7B7D45001D0B94 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA450742A7B7D45001D0B94 /* homePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		BFA450642A7B7497001D0B94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFA450662A7B749B001D0B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA450692A7B749B001D0B94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA450722A7B76F5001D0B94 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		BFA450742A7B7D45001D0B94 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				BFA450622A7B7497001D0B94 /* Estee_LauderApp.swift */,
+				BFA450722A7B76F5001D0B94 /* SplashScreenView.swift */,
 				BFA450642A7B7497001D0B94 /* ContentView.swift */,
+				BFA450742A7B7D45001D0B94 /* homePage.swift */,
 				BFA450662A7B749B001D0B94 /* Assets.xcassets */,
 				BFA450682A7B749B001D0B94 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				BFA450652A7B7497001D0B94 /* ContentView.swift in Sources */,
 				BFA450632A7B7497001D0B94 /* Estee_LauderApp.swift in Sources */,
+				BFA450732A7B76F5001D0B94 /* SplashScreenView.swift in Sources */,
+				BFA450752A7B7D45001D0B94 /* homePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

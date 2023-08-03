@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Estee_LauderApp: App {
+   // let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }
