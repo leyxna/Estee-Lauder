@@ -8,57 +8,73 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var normalSkin = "normal"
-    @State private var combinationSkin = "combination"
-    @State private var oilySkin = "oily"
-    @State private var sensitiveSkin = "sensitive"
-    @State private var drySkin = "dry"
-    @State private var acneproneSkin = "acneprone"
+  
     
-    @State var name: String
+   // @State var name: String
+    @Binding var name : String
+    @Binding var skinType: String
+    
     var body: some View {
     
         
         NavigationStack {
             ZStack {
-               /* LinearGradient(gradient: Gradient(colors: [Color("gradient1"), Color("gradient2"), Color("gradient3"), Color("gradient4"), Color("gradient5")]), startPoint: .bottomLeading, endPoint: .topTrailing)
-                    .ignoresSafeArea() */
-               // LinearGradient(gradient:, startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
-                Color("gradient3")
+                LinearGradient(gradient: Gradient(colors: [Color("gradient1"), Color("gradient2"), Color("gradient3"), Color("gradient4"), Color("gradient5")]), startPoint: .topLeading, endPoint: .bottomTrailing)
                     .ignoresSafeArea()
+                
+                    
+                    /* LinearGradient(gradient: Gradient(colors: [Color("gradient1"), Color("gradient2"), Color("gradient3"), Color("gradient4"), Color("gradient5")]), startPoint: .bottomLeading, endPoint: .topTrailing)
+                     .ignoresSafeArea() */
+                    // LinearGradient(gradient:, startPoint: /*@START_MENU_TOKEN@*/.leading/*@END_MENU_TOKEN@*/, endPoint: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/)
+                    //  Color("gradient3")
+                    //   .ignoresSafeArea()
                 VStack {
-                    Text("Welcome! Please tell us your name and skin type!")
+                    
+                    Text("Hello, \(name)!")
                         .font(.title2)
                         .fontWeight(.bold)
-                        .foregroundColor(Color.white)
-                        .multilineTextAlignment(.center)
-                    
-                    TextField("your name", text: $name)
-                        .fontWeight(.bold)
-                        .foregroundColor(Color.white)
-                        .padding(.horizontal, 130)
-                        .padding(.vertical, 30)
-                        .background(Color("gradient2"))
-                        .cornerRadius(50)
+                        .foregroundColor(Color(.white))
                         .multilineTextAlignment(.center)
                         .padding()
-                    HStack {
-                        Image("sensitive")
-                            .resizable(resizingMode: .stretch)
-                            .aspectRatio(contentMode: .fit)
-                    }
+                        .padding()
                     
-                    NavigationLink(destination: homePage(name: $name)) {
-                        Text("submit 💖")
+                    NavigationLink(destination: nutritiousLine()) {
+                        Text("Explore Our New Line: The Nutritious Line!")
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)
-                            .padding(.horizontal, 50)
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal, 90)
+                            .padding(.vertical, 20)
+                            .background(Color("gradient2"))
+                            .cornerRadius(50)
+                            .padding()
+
+                    }
+                    NavigationLink(destination: productOfTheDay()) {
+                        Text("Product of the Day")
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal, 104)
                             .padding(.vertical, 30)
-                            .background(Color("lighterBrown"))
+                            .background(Color("yourname"))
+                            .cornerRadius(50)
+                            .padding()
+                    }
+                    
+                    NavigationLink(destination: mySkinType(skinType: $skinType)) {
+                        Text("My Skin Type")
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .multilineTextAlignment(.center)
+                            .padding(.horizontal, 124)
+                            .padding(.vertical, 30)
+                            .background(Color("gradient3"))
                             .cornerRadius(50)
                             .padding()
                     }
                 }
+                
             }
         }
     }
@@ -66,6 +82,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(name: "")
+        ContentView(name:.constant("name"), skinType: .constant("user"))
     }
 }

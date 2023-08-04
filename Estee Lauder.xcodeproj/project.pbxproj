@@ -12,7 +12,13 @@
 		BFA450672A7B749B001D0B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA450662A7B749B001D0B94 /* Assets.xcassets */; };
 		BFA4506A2A7B749B001D0B94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA450692A7B749B001D0B94 /* Preview Assets.xcassets */; };
 		BFA450732A7B76F5001D0B94 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA450722A7B76F5001D0B94 /* SplashScreenView.swift */; };
-		BFA450752A7B7D45001D0B94 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA450742A7B7D45001D0B94 /* homePage.swift */; };
+		BFFCE0F92A7C0A5000C4D929 /* userInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFCE0F82A7C0A5000C4D929 /* userInput.swift */; };
+		BFFCE0FB2A7C2F0400C4D929 /* nutritiousLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFCE0FA2A7C2F0400C4D929 /* nutritiousLine.swift */; };
+		BFFCE0FD2A7C305000C4D929 /* productOfTheDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFCE0FC2A7C305000C4D929 /* productOfTheDay.swift */; };
+		BFFCE1002A7C33ED00C4D929 /* YesevaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFCE0FF2A7C33EC00C4D929 /* YesevaOne-Regular.ttf */; };
+		BFFCE1022A7CD77600C4D929 /* mySkinType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFCE1012A7CD77600C4D929 /* mySkinType.swift */; };
+		BFFCE1042A7CE5BA00C4D929 /* normalSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFCE1032A7CE5BA00C4D929 /* normalSkin.swift */; };
+		BFFCE1062A7CE94600C4D929 /* combinationSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFCE1052A7CE94600C4D929 /* combinationSkin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +28,14 @@
 		BFA450662A7B749B001D0B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA450692A7B749B001D0B94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFA450722A7B76F5001D0B94 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
-		BFA450742A7B7D45001D0B94 /* homePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homePage.swift; sourceTree = "<group>"; };
+		BFFCE0F82A7C0A5000C4D929 /* userInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInput.swift; sourceTree = "<group>"; };
+		BFFCE0FA2A7C2F0400C4D929 /* nutritiousLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutritiousLine.swift; sourceTree = "<group>"; };
+		BFFCE0FC2A7C305000C4D929 /* productOfTheDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productOfTheDay.swift; sourceTree = "<group>"; };
+		BFFCE0FE2A7C336F00C4D929 /* Estee-Lauder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Estee-Lauder-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BFFCE0FF2A7C33EC00C4D929 /* YesevaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YesevaOne-Regular.ttf"; sourceTree = "<group>"; };
+		BFFCE1012A7CD77600C4D929 /* mySkinType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySkinType.swift; sourceTree = "<group>"; };
+		BFFCE1032A7CE5BA00C4D929 /* normalSkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = normalSkin.swift; sourceTree = "<group>"; };
+		BFFCE1052A7CE94600C4D929 /* combinationSkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combinationSkin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +68,17 @@
 		BFA450612A7B7497001D0B94 /* Estee Lauder */ = {
 			isa = PBXGroup;
 			children = (
+				BFFCE0FE2A7C336F00C4D929 /* Estee-Lauder-Info.plist */,
+				BFFCE0FF2A7C33EC00C4D929 /* YesevaOne-Regular.ttf */,
 				BFA450622A7B7497001D0B94 /* Estee_LauderApp.swift */,
 				BFA450722A7B76F5001D0B94 /* SplashScreenView.swift */,
+				BFFCE0F82A7C0A5000C4D929 /* userInput.swift */,
 				BFA450642A7B7497001D0B94 /* ContentView.swift */,
-				BFA450742A7B7D45001D0B94 /* homePage.swift */,
+				BFFCE0FA2A7C2F0400C4D929 /* nutritiousLine.swift */,
+				BFFCE1012A7CD77600C4D929 /* mySkinType.swift */,
+				BFFCE0FC2A7C305000C4D929 /* productOfTheDay.swift */,
+				BFFCE1032A7CE5BA00C4D929 /* normalSkin.swift */,
+				BFFCE1052A7CE94600C4D929 /* combinationSkin.swift */,
 				BFA450662A7B749B001D0B94 /* Assets.xcassets */,
 				BFA450682A7B749B001D0B94 /* Preview Content */,
 			);
@@ -133,6 +153,7 @@
 			files = (
 				BFA4506A2A7B749B001D0B94 /* Preview Assets.xcassets in Resources */,
 				BFA450672A7B749B001D0B94 /* Assets.xcassets in Resources */,
+				BFFCE1002A7C33ED00C4D929 /* YesevaOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,10 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFCE0F92A7C0A5000C4D929 /* userInput.swift in Sources */,
+				BFFCE1042A7CE5BA00C4D929 /* normalSkin.swift in Sources */,
+				BFFCE1062A7CE94600C4D929 /* combinationSkin.swift in Sources */,
+				BFFCE1022A7CD77600C4D929 /* mySkinType.swift in Sources */,
+				BFFCE0FD2A7C305000C4D929 /* productOfTheDay.swift in Sources */,
+				BFFCE0FB2A7C2F0400C4D929 /* nutritiousLine.swift in Sources */,
 				BFA450652A7B7497001D0B94 /* ContentView.swift in Sources */,
 				BFA450632A7B7497001D0B94 /* Estee_LauderApp.swift in Sources */,
 				BFA450732A7B76F5001D0B94 /* SplashScreenView.swift in Sources */,
-				BFA450752A7B7D45001D0B94 /* homePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Estee Lauder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Estee-Lauder-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Estee Lauder/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Estee-Lauder-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
