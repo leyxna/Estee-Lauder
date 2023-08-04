@@ -62,7 +62,7 @@ struct mySkinType: View {
                             .padding()
                     }
                 } else if skinType == "oily" {
-                    NavigationLink(destination: productOfTheDay()) {
+                    NavigationLink(destination: oilySkin()) {
                         Text("Check out our best products for oily skin!")
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)
@@ -74,7 +74,7 @@ struct mySkinType: View {
                             .padding()
                     }
                 } else if skinType == "sensitive" {
-                    NavigationLink(destination: productOfTheDay()) {
+                    NavigationLink(destination: sensitiveSkin()) {
                         Text("Check out our best products for sensitive skin!")
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)
@@ -86,7 +86,7 @@ struct mySkinType: View {
                             .padding()
                     }
                 } else if skinType == "dry" {
-                    NavigationLink(destination: productOfTheDay()) {
+                    NavigationLink(destination: drySkin()) {
                         Text("Check out our best products for dry skin!")
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)
@@ -98,7 +98,7 @@ struct mySkinType: View {
                             .padding()
                     }
                 } else if skinType == "acne-prone" {
-                    NavigationLink(destination: productOfTheDay()) {
+                    NavigationLink(destination: acneProneSkin()) {
                         Text("Check out our best products for acne-prone skin!")
                             .fontWeight(.bold)
                             .foregroundColor(Color.white)

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct nutritiousLine: View {
     var body: some View {
+        NavigationStack {
         ZStack {
             LinearGradient(gradient: Gradient(colors: [Color("gradient1"), Color("gradient2"), Color("gradient3"), Color("gradient4"), Color("gradient5")]), startPoint: .topLeading, endPoint: .bottomTrailing)
                 .ignoresSafeArea()
@@ -19,7 +20,7 @@ struct nutritiousLine: View {
                     .font(.custom("YesevaOne-Regular", size: 23))
                     .foregroundColor(Color.white)
                     .multilineTextAlignment(.center)
-                    
+                
                 
                 Image("nutritious")
                     .resizable(resizingMode: .stretch)
@@ -27,28 +28,30 @@ struct nutritiousLine: View {
                     .frame(width: 350)
                     .cornerRadius(40)
                     .padding()
-                    
                 
-                Text("Products From Our Line")
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.white)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 75)
-                    .padding(.vertical, 30)
-                    .background(Color("gradient2"))
-                    .cornerRadius(50)
-                    .padding()
-                
-                Text("More About Our Line")
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.white)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 87)
-                    .padding(.vertical, 30)
-                    .background(Color("gradient3"))
-                    .cornerRadius(50)
-                    .padding()
-                
+                NavigationLink(destination: productsFromLine()) {
+                    Text("Products From Our Line")
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 75)
+                        .padding(.vertical, 30)
+                        .background(Color("gradient2"))
+                        .cornerRadius(50)
+                        .padding()
+                }
+                NavigationLink(destination: moreAboutNutri()) {
+                    Text("More About Our Line")
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 87)
+                        .padding(.vertical, 30)
+                        .background(Color("gradient3"))
+                        .cornerRadius(50)
+                        .padding()
+                    }
+                }
             }
         }
     }

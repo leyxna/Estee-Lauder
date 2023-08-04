@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3A56F72A7D37A500D2C86E /* oilySkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A56F62A7D37A400D2C86E /* oilySkin.swift */; };
+		BF3A56F92A7D397F00D2C86E /* sensitiveSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A56F82A7D397F00D2C86E /* sensitiveSkin.swift */; };
+		BF3A56FB2A7D3ACB00D2C86E /* drySkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A56FA2A7D3ACB00D2C86E /* drySkin.swift */; };
+		BF3A56FD2A7D3C5500D2C86E /* acneProneSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A56FC2A7D3C5500D2C86E /* acneProneSkin.swift */; };
+		BF3A56FF2A7D3F0200D2C86E /* productsFromLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A56FE2A7D3F0200D2C86E /* productsFromLine.swift */; };
+		BF3A57012A7D4CDB00D2C86E /* nutriCleanser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A57002A7D4CDB00D2C86E /* nutriCleanser.swift */; };
+		BF3A57032A7D4CE900D2C86E /* nutriRadiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A57022A7D4CE900D2C86E /* nutriRadiant.swift */; };
+		BF3A57052A7D4CF300D2C86E /* nutriAiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A57042A7D4CF300D2C86E /* nutriAiry.swift */; };
+		BF3A57072A7D4CFE00D2C86E /* nutriSoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A57062A7D4CFE00D2C86E /* nutriSoft.swift */; };
+		BF3A57092A7D5B0100D2C86E /* moreAboutNutri.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A57082A7D5B0100D2C86E /* moreAboutNutri.swift */; };
+		BF3A570B2A7D646D00D2C86E /* nutriGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A570A2A7D646D00D2C86E /* nutriGen.swift */; };
+		BF3A570D2A7D866F00D2C86E /* essentialNutri.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A570C2A7D866F00D2C86E /* essentialNutri.swift */; };
+		BF3A570F2A7D893400D2C86E /* ourIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3A570E2A7D893400D2C86E /* ourIngredients.swift */; };
 		BFA450632A7B7497001D0B94 /* Estee_LauderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA450622A7B7497001D0B94 /* Estee_LauderApp.swift */; };
 		BFA450652A7B7497001D0B94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA450642A7B7497001D0B94 /* ContentView.swift */; };
 		BFA450672A7B749B001D0B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA450662A7B749B001D0B94 /* Assets.xcassets */; };
@@ -22,6 +35,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF3A56F62A7D37A400D2C86E /* oilySkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oilySkin.swift; sourceTree = "<group>"; };
+		BF3A56F82A7D397F00D2C86E /* sensitiveSkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensitiveSkin.swift; sourceTree = "<group>"; };
+		BF3A56FA2A7D3ACB00D2C86E /* drySkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drySkin.swift; sourceTree = "<group>"; };
+		BF3A56FC2A7D3C5500D2C86E /* acneProneSkin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acneProneSkin.swift; sourceTree = "<group>"; };
+		BF3A56FE2A7D3F0200D2C86E /* productsFromLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productsFromLine.swift; sourceTree = "<group>"; };
+		BF3A57002A7D4CDB00D2C86E /* nutriCleanser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriCleanser.swift; sourceTree = "<group>"; };
+		BF3A57022A7D4CE900D2C86E /* nutriRadiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriRadiant.swift; sourceTree = "<group>"; };
+		BF3A57042A7D4CF300D2C86E /* nutriAiry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriAiry.swift; sourceTree = "<group>"; };
+		BF3A57062A7D4CFE00D2C86E /* nutriSoft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriSoft.swift; sourceTree = "<group>"; };
+		BF3A57082A7D5B0100D2C86E /* moreAboutNutri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreAboutNutri.swift; sourceTree = "<group>"; };
+		BF3A570A2A7D646D00D2C86E /* nutriGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nutriGen.swift; sourceTree = "<group>"; };
+		BF3A570C2A7D866F00D2C86E /* essentialNutri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = essentialNutri.swift; sourceTree = "<group>"; };
+		BF3A570E2A7D893400D2C86E /* ourIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ourIngredients.swift; sourceTree = "<group>"; };
 		BFA4505F2A7B7497001D0B94 /* Estee Lauder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Estee Lauder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA450622A7B7497001D0B94 /* Estee_LauderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Estee_LauderApp.swift; sourceTree = "<group>"; };
 		BFA450642A7B7497001D0B94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,10 +101,23 @@
 				BFFCE0F82A7C0A5000C4D929 /* userInput.swift */,
 				BFA450642A7B7497001D0B94 /* ContentView.swift */,
 				BFFCE0FA2A7C2F0400C4D929 /* nutritiousLine.swift */,
+				BF3A57082A7D5B0100D2C86E /* moreAboutNutri.swift */,
+				BF3A570E2A7D893400D2C86E /* ourIngredients.swift */,
+				BF3A570C2A7D866F00D2C86E /* essentialNutri.swift */,
+				BF3A570A2A7D646D00D2C86E /* nutriGen.swift */,
+				BF3A56FE2A7D3F0200D2C86E /* productsFromLine.swift */,
+				BF3A57002A7D4CDB00D2C86E /* nutriCleanser.swift */,
+				BF3A57022A7D4CE900D2C86E /* nutriRadiant.swift */,
+				BF3A57042A7D4CF300D2C86E /* nutriAiry.swift */,
+				BF3A57062A7D4CFE00D2C86E /* nutriSoft.swift */,
 				BFFCE1012A7CD77600C4D929 /* mySkinType.swift */,
 				BFFCE0FC2A7C305000C4D929 /* productOfTheDay.swift */,
 				BFFCE1032A7CE5BA00C4D929 /* normalSkin.swift */,
 				BFFCE1052A7CE94600C4D929 /* combinationSkin.swift */,
+				BF3A56F62A7D37A400D2C86E /* oilySkin.swift */,
+				BF3A56F82A7D397F00D2C86E /* sensitiveSkin.swift */,
+				BF3A56FA2A7D3ACB00D2C86E /* drySkin.swift */,
+				BF3A56FC2A7D3C5500D2C86E /* acneProneSkin.swift */,
 				BFA450662A7B749B001D0B94 /* Assets.xcassets */,
 				BFA450682A7B749B001D0B94 /* Preview Content */,
 			);
@@ -165,11 +204,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFFCE0F92A7C0A5000C4D929 /* userInput.swift in Sources */,
+				BF3A57052A7D4CF300D2C86E /* nutriAiry.swift in Sources */,
 				BFFCE1042A7CE5BA00C4D929 /* normalSkin.swift in Sources */,
+				BF3A570D2A7D866F00D2C86E /* essentialNutri.swift in Sources */,
+				BF3A57032A7D4CE900D2C86E /* nutriRadiant.swift in Sources */,
+				BF3A570F2A7D893400D2C86E /* ourIngredients.swift in Sources */,
 				BFFCE1062A7CE94600C4D929 /* combinationSkin.swift in Sources */,
 				BFFCE1022A7CD77600C4D929 /* mySkinType.swift in Sources */,
+				BF3A57092A7D5B0100D2C86E /* moreAboutNutri.swift in Sources */,
 				BFFCE0FD2A7C305000C4D929 /* productOfTheDay.swift in Sources */,
+				BF3A56F92A7D397F00D2C86E /* sensitiveSkin.swift in Sources */,
+				BF3A57072A7D4CFE00D2C86E /* nutriSoft.swift in Sources */,
+				BF3A56F72A7D37A500D2C86E /* oilySkin.swift in Sources */,
+				BF3A56FF2A7D3F0200D2C86E /* productsFromLine.swift in Sources */,
 				BFFCE0FB2A7C2F0400C4D929 /* nutritiousLine.swift in Sources */,
+				BF3A570B2A7D646D00D2C86E /* nutriGen.swift in Sources */,
+				BF3A56FD2A7D3C5500D2C86E /* acneProneSkin.swift in Sources */,
+				BF3A56FB2A7D3ACB00D2C86E /* drySkin.swift in Sources */,
+				BF3A57012A7D4CDB00D2C86E /* nutriCleanser.swift in Sources */,
 				BFA450652A7B7497001D0B94 /* ContentView.swift in Sources */,
 				BFA450632A7B7497001D0B94 /* Estee_LauderApp.swift in Sources */,
 				BFA450732A7B76F5001D0B94 /* SplashScreenView.swift in Sources */,
